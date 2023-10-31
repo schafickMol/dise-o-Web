@@ -14,6 +14,12 @@ html {
     scroll-snap-type: y mandatory;
 }
 /* Scroll snap */
+@media (max-width: 768px) {
+    .servicios, .navegacion-principal, .formulario {
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
+    }
+}
 /* .servicios, .navegacion-principal, .formulario {
     scroll-snap-align: center;
     scroll-snap-stop: always;
